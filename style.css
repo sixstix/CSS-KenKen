@@ -1,7 +1,71 @@
 * {
-  box-sizing: border-box;
+  #box-sizing: border-box;
 }
 
 html {
   font-size: 10px;
 }
+
+body { 
+  width: 100%vw;
+  height: 100%vh;
+  margin-top: 120px;
+  background-color: peru;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+main {
+  /* background-color: white;
+  color: black;  */
+}
+
+
+
+.grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  display: grid;
+  height: 225px;
+  border: 2px solid black;
+  
+
+}
+
+.grid-items {
+  border: .1rem solid gray
+  font-size: 2rem;
+  background-color: white;
+ 
+}
+
+#box3, #box7, #box10, #box11, #box12, #box15 {
+  border-left: 5px solid black;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box8, 
+#box9, #box10, #box11 {
+  border-bottom: 5px solid black;
+}
+
+.prompt {
+  position: absolute;
+  position: top 0%;
+  position: 0%;
+}
+
+.answer {
+  width: 91%;
+  height: 91%;
+  text-align: center;
+  
+}
+
+.special {
+ /*  border: none;
+  font-size: 2rem; */
+}
+
+
